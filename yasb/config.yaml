@@ -34,7 +34,7 @@ bars:
       left: [
           "home", 
           "komorebi_workspaces",
-          "komorebi_active_layout",
+#          "komorebi_active_layout",
           "active_window"
       ]
       center: [
@@ -85,22 +85,22 @@ widgets:
         left: 8
         bottom: 0
         right: 8
-  komorebi_active_layout:
-    type: "komorebi.active_layout.ActiveLayoutWidget"
-    options:
-      hide_if_offline: true
-      label: "{icon}"
-      layouts:
-        [
-          "bsp",
-          "columns",
-          "rows",
-          "grid",
-          "vertical_stack",
-          "horizontal_stack",
-          "ultrawide_vertical_stack",
-          "right_main_vertical_stack",
-        ]
+#  komorebi_active_layout:
+#    type: "komorebi.active_layout.ActiveLayoutWidget"
+#    options:
+#      hide_if_offline: true
+#      label: "{icon}"
+#      layouts:
+#        [
+#          "bsp",
+#          "columns",
+#          "rows",
+#          "grid",
+#          "vertical_stack",
+#          "horizontal_stack",
+#          "ultrawide_vertical_stack",
+#          "right_main_vertical_stack",
+#        ]
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
     options:

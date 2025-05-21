@@ -286,3 +286,30 @@ ValueError: unknown locale: de_EN
 2025-05-21 13:45:37,551 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-21 13:45:37.551838
 2025-05-21 13:55:36,555 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-21 13:55:36.555242
 2025-05-21 14:05:36,569 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-21 14:05:36.569714
+2025-05-21 14:13:21,670 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-21 14:13:21,777 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-21 14:13:21,777 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-21 14:13:21,800 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-21 14:13:21,810 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-21 14:13:21,819 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-21 14:13:21,873 [ERROR] [Dummy-5] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of WorkspaceWidget object at 0x0000023508C14AF0>. Removing link to KomorebiEvent.KomorebiUpdate.
+2025-05-21 14:13:22,665 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-21 14:13:22,665 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-21 14:13:22,666 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-21 14:13:22,935 [WARNING] [MainThread] [root/widget_builder.py:38]: No widget config could be found for widget 'komorebi_active_layout
+2025-05-21 14:13:22,979 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-21 14:13:23,238 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-21 14:13:24,557 [ERROR] [MainThread] [root/widget_builder.py:77]: Failed to add undefined widget(s)  - The widget "komorebi_active_layout" is undefined.
+2025-05-21 14:13:24,565 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-fe9479e5-363c-11f0-ac7f-744ca1d6ad5c
+2025-05-21 14:13:24,865 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-fe9479e5-363c-11f0-ac7f-744ca1d6ad5c
+2025-05-21 14:13:25,190 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-21 14:13:25.190862
+2025-05-21 14:13:29,314 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\taylo\.config\yasb
+2025-05-21 14:13:29,437 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-21 14:13:29,446 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-21 14:13:48,930 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-21 14:13:49,045 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-21 14:13:49,045 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-21 14:13:49,051 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-21 14:13:49,061 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-21 14:13:49,063 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-21 14:13:49,111 [ERROR] [Dummy-10] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000016D39452B70>. Removing link to WinEvent.EventObjectNameChange.
