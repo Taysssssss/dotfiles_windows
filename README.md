@@ -6,3 +6,4 @@
 |-------------------|-------------------------------------------------------|-------------------------------|
 | Window Manager    | [komorebi](https://github.com/LGUG2Z/komorebi)        | [komorebi](komorebi/)         |
 | Shortcuts         | [whkd](https://github.com/LGUG2Z/whkd)                | [whkd](whkd/)                 |
+| Top Bar           | [yasb](https://github.com/amnweb/yasb)                | [yasb](yasb/)                 |
