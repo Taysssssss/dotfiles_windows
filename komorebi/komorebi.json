@@ -24,39 +24,39 @@
       "workspaces": [
         {
           "name": "I",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "II",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "III",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "IV",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "V",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "VI",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "VII",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "VIII",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "IX",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         }
       ],
       "ignore_rules": [
