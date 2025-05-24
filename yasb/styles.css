@@ -218,7 +218,7 @@
 /* === CLOCK WIDGET === */
 /* ================= */
 .clock-widget {
-    background-color: var(--crust);
+    background-color: var(--margin);
     margin: 4px 0;
     border-radius: 12px;
     border: 0;

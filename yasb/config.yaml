@@ -56,6 +56,7 @@ widgets:
         - { title: "Downloads", path: "~\\Downloads"}
         - { title: "Documents", path: "~\\Documents"}
         - { title: "Pictures", path: "C:\\Users\\taylo\\OneDrive\\Pictures"}
+        - { title: "Config", path: "C:\\Users\\taylo\\.config" }
       system_menu: true
       power_menu: false
       blur: true
