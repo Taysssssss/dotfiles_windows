@@ -18,7 +18,7 @@ bars:
       duration: 1000
     blur_effect:
       enabled: true 
-      acrylic: true 
+      acrylic: true
       dark_mode: true
       round_corners: true
       border_color: None
@@ -43,6 +43,7 @@ bars:
         ]
       right: [
           "volume",
+          "calendar",
           "clock",
           "power_menu"
       ]
@@ -56,6 +57,8 @@ widgets:
         - { title: "Downloads", path: "~\\Downloads"}
         - { title: "Documents", path: "~\\Documents"}
         - { title: "Pictures", path: "C:\\Users\\taylo\\OneDrive\\Pictures"}
+        - { title: "Config", path: "C:\\Users\\taylo\\.config" }
+        - { title: "Screenshots", path: "C:\\Users\\taylo\\OneDrive\\Bilder\\Screenshots 1" }
       system_menu: true
       power_menu: false
       blur: true
@@ -137,6 +140,8 @@ widgets:
         offset_top: 0
       callbacks:
         on_right: "toggle_mute"
+  calendar:
+    
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:

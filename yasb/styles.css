@@ -18,22 +18,22 @@
     --blue: #89b4fa;
     --lavender: #b4befe;
 
-/* Text colors */
+    /* Text colors */
     --text: #cdd6f4;
     --subtext1: #bac2de;
     --subtext0: #a6adc8;
 
-/* Overlay colors */
+    /* Overlay colors */
     --overlay2: #9399b2;
     --overlay1: #7f849c;
     --overlay0: #6c7086;
 
-/* Surface colors */
+    /* Surface colors */
     --surface2: #585b70;
     --surface1: #45475a;
     --surface0: #282936;
 
-/* Base colors */
+    /* Base colors */
     --base: #1e1e2e;
     --mantle: rgba(24, 24, 37, 0.5);
     --crust: rgba(17, 17, 27, 0.75);
@@ -67,11 +67,11 @@
 }
 
 .widget .label {
-    padding: 0px 2px;
+    padding: 0 2px;
 }
 
 .widget .label.alt {
-    padding: 0px 2px;
+    padding: 0 2px;
 }
 
 .icon {
@@ -98,7 +98,7 @@
     border-radius: 8px;
     background-color: var(--base);
     border: 8px solid rgba(58, 59, 83, 0);
-    margin: 0px;
+    margin: 0;
 }
 
 .power-menu-popup .button.hover {
@@ -135,90 +135,12 @@
     margin: 0;
 }
 
-/* ==================== */
-/* === VOLUME WIDGET === */
-/* ==================== */
-.volume-widget .icon {
-    color: var(--blue);
-    margin: 1px 2px 0 0;
-}
-
-/* Audio dropdown menu */
-.audio-menu {
-    background-color: var(--mantle);
-}
-
-.audio-container .device {
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    padding: 6px 8px 6px 4px;
-    margin: 2px 0;
-    font-size: 12px;
-    border-radius: 4px;
-}
-
-.audio-container .device.selected {
-    background-color: rgba(255, 255, 255, 0.085);
-}
-
-.audio-container .device:hover {
-    background-color: rgba(255, 255, 255, 0.06);
-}
-
-/* ================= */
-/* === DISK WIDGET === */
-/* ================= */
-.disk-widget .icon {
-    color: var(--teal);
-}
-
-/* Disk dropdown */
-.disk-group {
-    background-color: var(--mantle);
-}
-
-.disk-group-row {
-    min-width: 220px;
-    max-width: 220px;
-    max-height: 40px;
-    margin: 0;
-    padding: 0;
-    border-radius: 6px;
-    border: 1px solid transparent;
-}
-
-.disk-group-row:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.disk-group-label-bar {
-    max-height: 8px;
-    border: 0;
-    background-color: rgba(148, 226, 213, 0.3);
-    border-radius: 4px;
-}
-
-.disk-group-label-bar::chunk {
-    background-color: var(--teal);
-    border-radius: 4px;
-}
-
-.disk-group-label {
-    font-size: 13px;
-}
-
-.disk-group-label-size {
-    font-size: 12px;
-    color: rgba(205, 214, 244, 0.5);
-}
 
 /* ================= */
 /* === CLOCK WIDGET === */
 /* ================= */
 .clock-widget {
-    background-color: var(--crust);
+    background-color: var(--mantle);
     margin: 4px 0;
     border-radius: 12px;
     border: 0;
