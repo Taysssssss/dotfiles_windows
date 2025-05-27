@@ -613,3 +613,13 @@ bars:
 2025-05-21 14:42:43,308 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-05-21 14:42:43,312 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
 2025-05-21 14:42:43,381 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-16d7e712-3641-11f0-bf6e-744ca1d6ad5c
+2025-05-27 08:34:08,325 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-27 08:34:08,326 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-27 08:34:08,327 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-27 08:34:09,413 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-27 08:34:09,899 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-27 08:34:11,717 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\taylo\.config\yasb
+2025-05-27 08:34:11,720 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-99d1ed96-3ac4-11f0-918b-744ca1d6ad5c
+2025-05-27 08:34:11,811 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-27 08:34:11,812 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-27 08:34:11,913 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-99d1ed96-3ac4-11f0-918b-744ca1d6ad5c
